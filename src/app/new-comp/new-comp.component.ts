@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewCompComponent implements OnInit {
 
+  myname = "I am from new compnent";
+
+  months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
   constructor() { }
 
   ngOnInit() {
